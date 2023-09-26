@@ -31,8 +31,6 @@
 
 <img
 src = "C:/Users/User/Downloads/WhatsApp Image 2023-09-26 at 22.27.42.jpeg"
-alt = "The Final Project"
-height = "100"
-width = "100"
-/>
+title = "The Final Project"
+width="150" height="100" />
 
