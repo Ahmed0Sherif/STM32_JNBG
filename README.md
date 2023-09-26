@@ -30,7 +30,7 @@
 |----|-----|-------|-------|
 
 <img
-src = "C:/Users/User/Downloads/Final_Product.png"
+src = "Downloads/Final_Product.png"
 title = "The Final Project"
-width="50%" height="50%" >
+width="50%" height="50%">
 
