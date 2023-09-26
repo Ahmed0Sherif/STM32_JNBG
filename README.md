@@ -40,16 +40,23 @@
 
 ## C-Main Controller:
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/f75997f7-7fc0-4994-b799-d5fa3290a229" width="50%" height="50%">
-### a- Crystal Oscillator:
-For calculting the value of capacitors, the following equation is used:
+
+### a- Crystal Oscillator
+- For calculting the value of capacitors, the following equation is used:
 <br>   Capacitor Value =  ( Load Capaitance of Crystal [10pf] + Stray Capacitance of PCB [maximum estimate = 10pF] ) / 2
-<br>Source: Phill's Lab Course on KiCAD 6.0
+- Source: Phill's Lab Course on KiCAD 6.0
 ### b- Power:
-<br> - According to the datasheet of STM32f03x, it is recommeded to connect VDD pin to the shown capacitances.
-<br> - For more stable ADC performance, a ferrite bead is added to the VDDA connections.
+- According to the datasheet of STM32f03x, it is recommeded to connect VDD pin to the shown capacitances.
+- For more stable ADC performance, a ferrite bead is added to the VDDA connections.
+### c- Interfacing:
+- GPIO pins are connected to headers for easier interface, while taking speical signals into considerations (i.e. I2C pair)
+- A SPDT switch is added to control the BOOT0 pin, and a RST button is added.
+- For experimental purposes, extra pair of headers are added to power the STM32 directly, bypassing the regulator.
 
-
- 
+# PCB View:
+<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/e3d8f8b8-c62e-405d-a70e-3af95cf5fa0c" title="2D View" width="50%" height="50%">
+<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/4d2ff079-699c-41e6-bcae-dd8a3014e8e9" title="3D View - Front" width="50%" height="50%">
+<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/bceee867-0bc9-4085-b467-a0c10fdbcfef" title="3D View - Back" width="50%" height="50%">
 
 # Final Result:
-<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/28036bf6-f4b5-4259-a92d-d2303d070564" width="50%" height="50%">
+<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/28036bf6-f4b5-4259-a92d-d2303d070564" title = "Homemade PCB" width="50%" height="50%">
