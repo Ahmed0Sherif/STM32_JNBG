@@ -5,9 +5,12 @@
 # Components List:
 |Component|Quantity| Was Used|
 |----|-----|-------|
-|stm32f030f4p6|1|Yes|
+|STM32f030f4p6|1|Yes|
 |AMS1117- 3V3|1|Yes|
-
+|CH340C|1|Yes|
+|USBLC6-2SC6|1|Yes|
+|SMAJ5.0A|1|Not Available|
+|32 MHz Crystal 3225|1|Yes|
 
 
 د\
