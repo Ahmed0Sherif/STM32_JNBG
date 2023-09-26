@@ -4,7 +4,7 @@
 - The design is done on KiCAD 6.0
 # Components List:
 |Component|Quantity|
-|---------|--------|
+|----|-----|
 |stm32f030f4p6|1|
 |---------|--------|
 
