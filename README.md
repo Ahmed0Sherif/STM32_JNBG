@@ -30,14 +30,23 @@
 # SchematicS:
 ## A-Power Module:
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/c162ac07-de76-43d9-88e7-2d57893fa48e" width="50%" height="50%">
- <br> - In this circuit, the AMS1117 is used to regulate 5V from USB to 3.3V, with a unidirectional TVS to protect against surges.
+<br> - In this circuit, the AMS1117 is used to regulate 5V from USB to 3.3V, with a unidirectional TVS to protect against surges.
 
 ## B-USB Interface:
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/f5046713-90c4-44ac-9e28-4414e719bfc0" width="50%" height="50%">
-<br>The board is provided with a USB-B Micro port, providing power and communication to the controller. 
-<br>The differential pair is connected to au nidirectional Dual TVS for ESD protection. Finally, the differentials are connected to a USB-to-TTL interface: CH340C. This variant was chosen because it can operate without an external crystal.
-<br>It is worth mentioning that until this time, this module has not been tested yet.
+<br> - The board is provided with a USB-B Micro port, providing power and communication to the controller. 
+<br> - The differential pair is connected to au nidirectional Dual TVS for ESD protection. Finally, the differentials are connected to a USB-to-TTL interface: CH340C. This variant was chosen because it can operate without an external crystal.
+<br> - It is worth mentioning that until this time, this module has not been tested yet.
 
+## C-Main Controller:
+<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/f75997f7-7fc0-4994-b799-d5fa3290a229" width="50%" height="50%">
+### a- Crystal Oscillator:
+For calculting the value of capacitors, the following equation is used:
+<br>   Capacitor Value =  ( Load Capaitance of Crystal [10pf] + Stray Capacitance of PCB [maximum estimate = 10pF] ) / 2
+<br>Source: Phill's Lab Course on KiCAD 6.0
+### b- Power:
+<br> - According to the datasheet of STM32f03x, it is recommeded to connect VDD pin to the shown capacitances.
+<br> - For more stable ADC performance, a ferrite bead is added to the VDDA connections.
 
 
  
