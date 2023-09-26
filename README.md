@@ -11,6 +11,5 @@
 |USBLC6-2SC6|ESD Protection TVS Unidirectional Dual Array SOT23-6|1|Yes|
 |SMAJ5.0A|Unidirectional TVS 5.0V D-SMB|1|Not Available|
 |Crystal Oscillator|Crystal Oscillator 32MHz 3225|1|Yes|
-
-
-د\
+|LEDs|Green and Red LEDs 0805|1* Green, 1*Red|Yes|
+|Ferrite Bead|100Ω @ 100MHz 2.5A 1 100mΩ 0805|1|Yes|
