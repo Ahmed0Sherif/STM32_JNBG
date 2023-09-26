@@ -13,5 +13,4 @@
 |Crystal Oscillator|Crystal Oscillator 32MHz 3225|1|Yes|
 
 
-
 د\
