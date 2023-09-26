@@ -3,7 +3,7 @@
 - The code name "JNBG" is in the honour of my group who helped and encouraged me in this project.
 - The design is done on KiCAD 6.0
 # Components List:
-|Component|Quantity||Description| Was Used|
+|Component|Quantity|Description| Was Used|
 |----|-----|-------|-------|
 |STM32f030f4p6|ARM® Cortex®-M0 48MHz FLASH 2.4V ~ 3.6V 32-Bit TSSOP-20 ST Microelectronics|1|Yes|
 |AMS1117- 3V3| 3V3 LDO Linear Voltage Regulator  SOT-223-3|1|Yes|
