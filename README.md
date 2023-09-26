@@ -30,7 +30,5 @@
 |----|-----|-------|-------|
 
 <img
-src = "Downloads/Final_Product.png"
-title = "The Final Project"
-width="50%" height="50%">
+src = "Downloads/Final_Product.png" title = "The Final Project" width="50%" height="50%">
 
