@@ -32,5 +32,14 @@
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/c162ac07-de76-43d9-88e7-2d57893fa48e" width="50%" height="50%">
  <br>In this circuit, the AMS1117 is used to regulate 5V from USB to 3.3V, with a unidirectional TVS to protect against surges.
 
+## B-USB Interface:
+<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/f5046713-90c4-44ac-9e28-4414e719bfc0" width="50%" height="50%">
+<br> The board is provided with a USB-B Micro port, providing power and communication to the controller. The differential pair is connected to au nidirectional Dual TVS for ESD protection. Finally, the differentials are connected to a USB-to-TTL interface: CH340C. This variant was chosen because it can operate without an external crystal.
+<br> It is worth mentioning that until this time, this module has not been tested yet.
+
+
+
+ 
+
 # Final Result:
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/28036bf6-f4b5-4259-a92d-d2303d070564" width="50%" height="50%">
