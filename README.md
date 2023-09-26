@@ -28,5 +28,5 @@
 |USB Port|SMD USB-B-Micro |1|Yes|
 |Female Headers|TH Female Headers Vertical pitch = 2.54mm|13|Yes|
 
-![Final_Product](https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/28036bf6-f4b5-4259-a92d-d2303d070564)
 
+<img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/28036bf6-f4b5-4259-a92d-d2303d070564" width="200" height="100">
