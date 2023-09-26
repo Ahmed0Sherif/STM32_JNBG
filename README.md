@@ -26,4 +26,5 @@
 |Tactile Push Button|Micro Push button Switch 2P 3x4x2mm|1|Yes|
 |PCB TH SPDT Toggle Switch| Through Hole SPDT Swithc pitch = 2.54mm |1|Yes|
 |USB Port|SMD USB-B-Micro |1|Yes|
-|Female Headers|TH Female Headers Vertical pitch = 2.54|13|Yes|
+|Female Headers|TH Female Headers Vertical pitch = 2.54mm|13|Yes|
+![WhatsApp Image 2023-09-26 at 22 27 42](https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/d0c726ca-723a-4d21-9855-8a5e8073cf70)
