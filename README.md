@@ -30,7 +30,7 @@
 # SchematicS:
 ## A-Power Module:
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/c162ac07-de76-43d9-88e7-2d57893fa48e" width="50%" height="50%">
-> In this circuit, the AMS1117 is used to regulate 5V from USB to 3.3V, with a unidirectional TVS to protect against surges.
+>In this circuit, the AMS1117 is used to regulate 5V from USB to 3.3V, with a unidirectional TVS to protect against surges.
 
 # Final Result:
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/28036bf6-f4b5-4259-a92d-d2303d070564" width="50%" height="50%">
