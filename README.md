@@ -34,8 +34,9 @@
 
 ## B-USB Interface:
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/f5046713-90c4-44ac-9e28-4414e719bfc0" width="50%" height="50%">
-<br> The board is provided with a USB-B Micro port, providing power and communication to the controller. The differential pair is connected to au nidirectional Dual TVS for ESD protection. Finally, the differentials are connected to a USB-to-TTL interface: CH340C. This variant was chosen because it can operate without an external crystal.
-<br> It is worth mentioning that until this time, this module has not been tested yet.
+<br>- The board is provided with a USB-B Micro port, providing power and communication to the controller. 
+- The differential pair is connected to au nidirectional Dual TVS for ESD protection. Finally, the differentials are connected to a USB-to-TTL interface: CH340C. This variant was chosen because it can operate without an external crystal.
+- It is worth mentioning that until this time, this module has not been tested yet.
 
 
 
