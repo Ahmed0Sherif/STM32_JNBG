@@ -32,7 +32,7 @@
 <img
 src = "C:/Users/User/Downloads/WhatsApp Image 2023-09-26 at 22.27.42.jpeg"
 alt = "The Final Project"
-style="height: 70px; width:70px;"
+style="height: 70; width:70;"
 />
 
 >
