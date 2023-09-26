@@ -29,6 +29,5 @@
 |Female Headers|TH Female Headers Vertical pitch = 2.54mm|13|Yes|
 |----|-----|-------|-------|
 
-<img
-src = "Downloads/Final_Product.png" title = "The Final Project" width="50%" height="50%">
+<img src = "Downloads/Final_Product.png" title = "The Final Project" width="50%" height="50%">
 
