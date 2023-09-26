@@ -27,7 +27,6 @@
 |PCB TH SPDT Toggle Switch| Through Hole SPDT Swithc pitch = 2.54mm |1|Yes|
 |USB Port|SMD USB-B-Micro |1|Yes|
 |Female Headers|TH Female Headers Vertical pitch = 2.54mm|13|Yes|
-|----|-----|-------|-------|
 
-<img src = "/Users/User/Downloads/Final_Product.png" >
+<img src = "/Users/User/Downloads/Final_Product.png" title = "The Final Project" width="50%" height="50%" >
 
