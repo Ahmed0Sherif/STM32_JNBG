@@ -27,20 +27,25 @@
 |PCB TH SPDT Toggle Switch| Through Hole SPDT Swithc pitch = 2.54mm |1|Yes|
 |USB Port|SMD USB-B-Micro |1|Yes|
 |Female Headers|TH Female Headers Vertical pitch = 2.54mm|13|Yes|
-# SchematicS:
+# Schematics:
 ## A-Power Module:
+<p align="center">
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/c162ac07-de76-43d9-88e7-2d57893fa48e" width="50%" height="50%">
+ </p>
 <br> - In this circuit, the AMS1117 is used to regulate 5V from USB to 3.3V, with a unidirectional TVS to protect against surges.
 
 ## B-USB Interface:
+<p align="center">
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/f5046713-90c4-44ac-9e28-4414e719bfc0" width="50%" height="50%">
+ </p>
 <br> - The board is provided with a USB-B Micro port, providing power and communication to the controller. 
 <br> - The differential pair is connected to au nidirectional Dual TVS for ESD protection. Finally, the differentials are connected to a USB-to-TTL interface: CH340C. This variant was chosen because it can operate without an external crystal.
 <br> - It is worth mentioning that until this time, this module has not been tested yet.
 
 ## C-Main Controller:
+<p align="center">
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/f75997f7-7fc0-4994-b799-d5fa3290a229" width="50%" height="50%">
-
+ </p>
 ### a- Crystal Oscillator
 - For calculting the value of capacitors, the following equation is used:
 <br>   Capacitor Value =  ( Load Capaitance of Crystal [10pf] + Stray Capacitance of PCB [maximum estimate = 10pF] ) / 2
@@ -54,10 +59,18 @@
 - For experimental purposes, extra pair of headers are added to power the STM32 directly, bypassing the regulator.
 
 # PCB View:
+<p align="center">
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/e3d8f8b8-c62e-405d-a70e-3af95cf5fa0c" title="2D View" width="50%" height="50%">
+ </p>
+<p align="center">
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/4d2ff079-699c-41e6-bcae-dd8a3014e8e9" title="3D View - Front" width="50%" height="50%">
+ </p>
+<p align="center">
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/bceee867-0bc9-4085-b467-a0c10fdbcfef" title="3D View - Back" width="50%" height="50%">
-
+ </p>
+ 
 # Final Result:
+<p align="center">
 <img src="https://github.com/Ahmed0Sherif/STM32_JNBG/assets/93788514/28036bf6-f4b5-4259-a92d-d2303d070564" alt = "Homemade PCB" 
  title = "Homemade PCB" width="50%" height="50%">
+ </p>
